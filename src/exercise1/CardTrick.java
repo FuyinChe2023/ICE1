@@ -109,7 +109,8 @@ public class CardTrick {
         System.out.println();
         
         System.out.println("My career ambitions:");
-        System.out.println("-- A Problem Solver.");        
+        System.out.println("-- A Problem Solver."); 
+        System.out.println("-- To be more professional."); 
         System.out.println();	
 
         System.out.println("My hobbies:");
