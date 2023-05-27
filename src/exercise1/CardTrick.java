@@ -10,8 +10,10 @@ import java.util.Scanner;
  *
  * @author dancye
  * @author Paul Bonenfant Jan 25, 2022 
+ * @author Fuyin Che, modified in May 26, 2023
  */
 public class CardTrick {
+    
     
     public static void main(String[] args) {
         
@@ -79,6 +81,7 @@ public class CardTrick {
         System.out.println(allCards);
         
     }
+   
     
     private static String cardName(int value){
         if(value<=10&&value >1){
@@ -98,7 +101,7 @@ public class CardTrick {
     /**
      * A simple method to print out personal information. Follow the instructions to 
      * replace this information with your own.
-     * @author Fuyin Che, May 26, 2023
+     * @author Fuyin Che, modified in May 26, 2023
      */
     
     // I'm done!

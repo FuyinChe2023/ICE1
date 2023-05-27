@@ -9,6 +9,7 @@ package exercise1;
  * add your name as a modifier.
  * @author dancye
  * @author Paul Bonenfant May 2020
+ * @author Fuyin Che, modified in May 26, 2023
  */
 public class Card {
 
@@ -17,8 +18,9 @@ public class Card {
 
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
    
+
    //default constructor
-   public Card(){
+   public Card(){   
        
    }
    
