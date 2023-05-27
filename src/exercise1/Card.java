@@ -16,6 +16,21 @@ public class Card {
    private int value;//1-13
 
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
+   
+   //default constructor
+   public Card(){
+       
+   }
+   
+   //constructor with parameters
+    public Card(int suitNumber, int value) {
+        //use setter to set the value
+        this.setSuit(suitNumber);
+        this.setValue(value);
+    }
+   
+   
+   
     /**
      * @return the suit
      */
@@ -26,8 +41,9 @@ public class Card {
     /**
      * @param suit the suit to set
      */
-    public void setSuit(String suit) {
-        this.suit = suit;
+    public void setSuit(int suitNumber) {
+        //get the suit through SUITS INDEX
+        this.suit = this.SUITS[suitNumber];
     }
 
     /**
